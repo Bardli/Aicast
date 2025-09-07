@@ -1,0 +1,28 @@
+
+--- Development Log Update: Automated Testing Strategy & LLM Orchestration Debugging ---
+Date: 2025-08-13
+
+**Current Status:**
+*   Main Backend API is running on port 8000.
+*   Content Ingestion Service is running on port 8001.
+*   LLM Orchestration Service has been implemented but is not starting correctly on port 8002, and its logs are not being generated.
+
+**User Feedback & New Strategy:**
+*   The user has emphasized the need to use automated API tests for implementation verification and debugging, rather than manual server startup/shutdown and `curl` commands. This will significantly streamline the development process.
+*   The user also reiterated the importance of API key separation (already addressed with `.env`) and continuous development logging (already in progress).
+
+**Problem:** The LLM Orchestration Service is failing to start, and no logs are being generated to diagnose the issue. Manual foreground execution was cancelled by the user.
+
+**Revised Plan to Debug LLM Orchestration Service (using Automated Tests):**
+1.  **Set up Testing Environment:** Install `pytest` and `pytest-asyncio` (for async tests) in the virtual environment.
+2.  **Create Test File:** Create a `tests/` directory in the project root and a test file (e.g., `tests/test_llm_orchestration_service.py`).
+3.  **Write Automated Test Case:** Implement a test function that:
+    *   Programmatically starts the LLM Orchestration Service (using `pytest` fixtures or a helper function).
+    *   Sends a sample `LLMOrchestrationRequest` to the service using `httpx.AsyncClient`.
+    *   Captures any errors or exceptions that occur during the service startup or request processing.
+    *   Stops the service after the test.
+4.  **Analyze Test Output:** The output from running `pytest` will provide the necessary stack traces and error messages to diagnose why the LLM Orchestration Service is failing to start or process requests.
+5.  **Address the Root Cause:** Fix the identified issues based on the test output.
+6.  **Verify Functionality:** Once the service is stable, expand the tests to cover its core functionalities (Synthesizer, Weaver, main backend updates).
+
+**Next Action:** Install `pytest` and `pytest-asyncio`, then create the initial test file for the LLM Orchestration Service.

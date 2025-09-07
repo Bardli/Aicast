@@ -1,0 +1,11 @@
+--- Development Log Update: Waiting for User Action and Foreground Run ---
+Date: 2025-08-13
+
+**Current Status:**
+*   LLM Orchestration Service tests are failing due to an invalid OpenAI API key and a 500 error from the main backend during podcast script update.
+
+**Reminder to User:**
+*   **Please confirm that you have replaced `your_openai_api_key_here` in `/home/bard/Desktop/Code/.env` with your actual OpenAI API key.** This is a prerequisite for the LLM Orchestration Service to function correctly.
+*   Once the API key is updated, the next step is to **debug the 500 error from the main backend's `PUT /podcasts/{podcast_id}/complete` endpoint.** This requires running the main backend in the foreground to capture detailed error messages. I will ask to run a command in the foreground, and your approval will be necessary to proceed.
+
+**Next Action:** Awaiting user confirmation on API key update and readiness to proceed with foreground debugging.

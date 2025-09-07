@@ -1,0 +1,169 @@
+2025-08-13 20:44:31,693 - root - INFO - Creating database tables...
+2025-08-13 20:44:31,696 - root - INFO - Database tables created successfully.
+2025-08-13 20:44:31,704 - root - INFO - --- Application startup ---
+2025-08-13 20:56:23,053 - root - INFO - --- Application shutdown ---
+2025-08-13 20:56:34,287 - root - INFO - Creating database tables...
+2025-08-13 20:56:34,290 - root - INFO - Database tables created successfully.
+2025-08-13 20:56:34,318 - root - INFO - --- Application startup ---
+2025-08-13 20:56:44,207 - root - INFO - Received request to read users with skip=0, limit=100
+2025-08-13 20:56:44,241 - root - INFO - Found 0 users.
+2025-08-13 20:56:59,253 - root - INFO - Received request to create user with email: test@example.com
+2025-08-13 20:56:59,454 - root - INFO - Successfully created user with ID: 42a83470-562d-4768-a792-3f72dc84845f
+2025-08-13 20:57:07,627 - root - INFO - Received request to read users with skip=0, limit=100
+2025-08-13 20:57:07,629 - root - INFO - Found 1 users.
+2025-08-13 20:57:16,058 - root - INFO - --- Application shutdown ---
+2025-08-13 20:57:17,563 - root - INFO - Creating database tables...
+2025-08-13 20:57:17,566 - root - INFO - Database tables created successfully.
+2025-08-13 20:57:17,594 - root - INFO - --- Application startup ---
+2025-08-13 20:57:22,008 - root - INFO - --- Application shutdown ---
+2025-08-13 20:57:26,133 - root - INFO - Creating database tables...
+2025-08-13 20:57:26,136 - root - INFO - Database tables created successfully.
+2025-08-13 20:57:26,165 - root - INFO - --- Application startup ---
+2025-08-13 20:57:27,446 - root - INFO - Received request to read users with skip=0, limit=100
+2025-08-13 20:57:27,479 - root - INFO - Found 1 users.
+2025-08-13 20:57:31,219 - root - INFO - Received request to create block with name: Daily Tech News
+2025-08-13 20:57:31,361 - root - INFO - Successfully created block with ID: 7b8cbaeb-8f9b-4044-b1e3-8139117c9d0f
+2025-08-13 20:57:35,755 - root - INFO - Received request to create podcast for user: 42a83470-562d-4768-a792-3f72dc84845f
+2025-08-13 20:57:35,889 - root - INFO - Successfully created podcast with ID: 1b20069f-f433-42b5-a4fc-f1d449f3a5b9
+2025-08-13 20:57:44,329 - root - INFO - --- Application shutdown ---
+2025-08-13 20:57:45,814 - root - INFO - Creating database tables...
+2025-08-13 20:57:45,817 - root - INFO - Database tables created successfully.
+2025-08-13 20:57:45,846 - root - INFO - --- Application startup ---
+2025-08-13 20:57:53,164 - root - INFO - --- Application shutdown ---
+2025-08-13 20:57:57,247 - root - INFO - Creating database tables...
+2025-08-13 20:57:57,250 - root - INFO - Database tables created successfully.
+2025-08-13 20:57:57,279 - root - INFO - --- Application startup ---
+2025-08-13 20:57:59,048 - root - INFO - Received request to create podcast for user: 42a83470-562d-4768-a792-3f72dc84845f
+2025-08-13 20:57:59,238 - root - INFO - Successfully created podcast with ID: d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 20:58:06,608 - root - INFO - Received request to read podcast with ID: d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 20:58:06,612 - root - INFO - Successfully found podcast with ID: d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 20:58:18,962 - root - INFO - --- Application shutdown ---
+2025-08-13 20:58:20,293 - root - INFO - Creating database tables...
+2025-08-13 20:58:20,296 - root - INFO - Database tables created successfully.
+2025-08-13 20:58:20,324 - root - INFO - --- Application startup ---
+2025-08-13 20:58:21,729 - root - INFO - --- Application shutdown ---
+2025-08-13 20:58:23,251 - root - INFO - Creating database tables...
+2025-08-13 20:58:23,254 - root - INFO - Database tables created successfully.
+2025-08-13 20:58:23,283 - root - INFO - --- Application startup ---
+2025-08-13 20:58:24,890 - root - INFO - --- Application shutdown ---
+2025-08-13 20:58:29,681 - root - INFO - Creating database tables...
+2025-08-13 20:58:29,684 - root - INFO - Database tables created successfully.
+2025-08-13 20:58:29,712 - root - INFO - --- Application startup ---
+2025-08-13 20:58:31,947 - root - INFO - Received request to read podcast with ID: d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 20:58:31,982 - root - INFO - Successfully found podcast with ID: d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 21:02:12,097 - root - INFO - --- Application shutdown ---
+2025-08-13 21:02:13,591 - root - INFO - Creating database tables...
+2025-08-13 21:02:13,594 - root - INFO - Database tables created successfully.
+2025-08-13 21:02:13,622 - root - INFO - --- Application startup ---
+2025-08-13 21:02:34,284 - root - INFO - --- Application shutdown ---
+2025-08-13 21:02:35,728 - root - INFO - Creating database tables...
+2025-08-13 21:02:35,732 - root - INFO - Database tables created successfully.
+2025-08-13 21:02:35,760 - root - INFO - --- Application startup ---
+2025-08-13 21:02:36,462 - root - INFO - --- Application shutdown ---
+2025-08-13 21:02:38,029 - root - INFO - Creating database tables...
+2025-08-13 21:02:38,032 - root - INFO - Database tables created successfully.
+2025-08-13 21:02:38,061 - root - INFO - --- Application startup ---
+2025-08-13 21:02:50,708 - root - INFO - --- Application shutdown ---
+2025-08-13 21:02:52,215 - root - INFO - Creating database tables...
+2025-08-13 21:02:52,218 - root - INFO - Database tables created successfully.
+2025-08-13 21:02:52,247 - root - INFO - --- Application startup ---
+2025-08-13 21:02:57,569 - root - INFO - --- Application shutdown ---
+2025-08-13 21:02:59,019 - root - INFO - Creating database tables...
+2025-08-13 21:02:59,022 - root - INFO - Database tables created successfully.
+2025-08-13 21:02:59,051 - root - INFO - --- Application startup ---
+2025-08-13 21:03:10,595 - root - INFO - --- Application shutdown ---
+2025-08-13 21:03:12,029 - root - INFO - Creating database tables...
+2025-08-13 21:03:12,032 - root - INFO - Database tables created successfully.
+2025-08-13 21:03:12,061 - root - INFO - --- Application startup ---
+2025-08-13 21:03:22,607 - root - INFO - --- Application shutdown ---
+2025-08-13 21:03:24,122 - root - INFO - Creating database tables...
+2025-08-13 21:03:24,125 - root - INFO - Database tables created successfully.
+2025-08-13 21:03:24,153 - root - INFO - --- Application startup ---
+2025-08-13 21:03:34,560 - root - INFO - Received request to create article for podcast d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 21:03:34,733 - root - INFO - Successfully created article with ID: 4cf60507-0ef0-448b-adcd-1ff031bc887e
+2025-08-13 21:03:44,233 - root - INFO - Received request to read articles for podcast: d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 21:03:44,237 - root - INFO - Found 1 articles for podcast d38a6da7-3900-4b1b-969d-5f2e490f2d95.
+2025-08-13 21:03:53,375 - root - INFO - --- Application shutdown ---
+2025-08-13 21:03:54,738 - root - INFO - Creating database tables...
+2025-08-13 21:03:54,741 - root - INFO - Database tables created successfully.
+2025-08-13 21:03:54,769 - root - INFO - --- Application startup ---
+2025-08-13 21:04:06,833 - root - INFO - Received request to read articles for podcast: d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 21:04:06,867 - root - INFO - Found 1 articles for podcast d38a6da7-3900-4b1b-969d-5f2e490f2d95.
+2025-08-13 21:13:49,611 - root - INFO - --- Application shutdown ---
+2025-08-13 21:13:50,937 - root - INFO - Creating database tables...
+2025-08-13 21:13:50,940 - root - INFO - Database tables created successfully.
+2025-08-13 21:13:50,969 - root - INFO - --- Application startup ---
+2025-08-13 21:14:02,803 - root - INFO - --- Application shutdown ---
+2025-08-13 21:14:04,204 - root - INFO - Creating database tables...
+2025-08-13 21:14:04,207 - root - INFO - Database tables created successfully.
+2025-08-13 21:14:04,235 - root - INFO - --- Application startup ---
+2025-08-13 21:14:10,454 - root - INFO - --- Application shutdown ---
+2025-08-13 21:14:11,801 - root - INFO - Creating database tables...
+2025-08-13 21:14:11,805 - root - INFO - Database tables created successfully.
+2025-08-13 21:14:11,835 - root - INFO - --- Application startup ---
+2025-08-13 21:14:17,554 - root - INFO - --- Application shutdown ---
+2025-08-13 21:14:18,975 - root - INFO - Creating database tables...
+2025-08-13 21:14:18,979 - root - INFO - Database tables created successfully.
+2025-08-13 21:14:19,007 - root - INFO - --- Application startup ---
+2025-08-13 21:14:30,538 - root - INFO - --- Application shutdown ---
+2025-08-13 21:14:31,939 - root - INFO - Creating database tables...
+2025-08-13 21:14:31,942 - root - INFO - Database tables created successfully.
+2025-08-13 21:14:31,971 - root - INFO - --- Application startup ---
+2025-08-13 21:14:48,194 - root - INFO - Received request to read articles for podcast: d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 21:14:48,228 - root - INFO - Found 1 articles for podcast d38a6da7-3900-4b1b-969d-5f2e490f2d95.
+2025-08-13 21:14:55,696 - root - INFO - Received request to complete podcast d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 21:14:55,835 - root - INFO - Successfully completed podcast d38a6da7-3900-4b1b-969d-5f2e490f2d95.
+2025-08-13 22:57:39,642 - root - INFO - --- Application shutdown ---
+2025-08-13 22:57:41,132 - root - INFO - Creating database tables...
+2025-08-13 22:57:41,135 - root - INFO - Database tables created successfully.
+2025-08-13 22:57:41,164 - root - INFO - --- Application startup ---
+2025-08-13 22:57:42,509 - root - INFO - Creating database tables...
+2025-08-13 22:57:42,512 - root - INFO - Database tables created successfully.
+2025-08-13 22:57:42,541 - root - INFO - --- Application startup ---
+2025-08-13 22:57:43,883 - root - INFO - Creating database tables...
+2025-08-13 22:57:43,886 - root - INFO - Database tables created successfully.
+2025-08-13 22:57:43,914 - root - INFO - --- Application startup ---
+2025-08-13 22:57:59,759 - root - INFO - --- Application shutdown ---
+2025-08-13 22:58:01,394 - root - INFO - Creating database tables...
+2025-08-13 22:58:01,397 - root - INFO - Database tables created successfully.
+2025-08-13 22:58:01,426 - root - INFO - --- Application startup ---
+2025-08-13 22:58:34,811 - root - INFO - --- Application shutdown ---
+2025-08-13 22:58:36,438 - root - INFO - Creating database tables...
+2025-08-13 22:58:36,442 - root - INFO - Database tables created successfully.
+2025-08-13 22:58:36,470 - root - INFO - --- Application startup ---
+2025-08-13 23:11:51,617 - root - INFO - --- Application shutdown ---
+2025-08-13 23:11:53,093 - root - INFO - Creating database tables...
+2025-08-13 23:11:53,096 - root - INFO - Database tables created successfully.
+2025-08-13 23:11:53,125 - root - INFO - --- Application startup ---
+2025-08-13 23:12:05,658 - root - INFO - --- Application shutdown ---
+2025-08-13 23:12:07,120 - root - INFO - Creating database tables...
+2025-08-13 23:12:07,123 - root - INFO - Database tables created successfully.
+2025-08-13 23:12:07,152 - root - INFO - --- Application startup ---
+2025-08-13 23:12:07,855 - root - INFO - --- Application shutdown ---
+2025-08-13 23:12:09,342 - root - INFO - Creating database tables...
+2025-08-13 23:12:09,345 - root - INFO - Database tables created successfully.
+2025-08-13 23:12:09,374 - root - INFO - --- Application startup ---
+2025-08-13 23:16:00,840 - root - INFO - --- Application shutdown ---
+2025-08-13 23:16:02,337 - root - INFO - Creating database tables...
+2025-08-13 23:16:02,340 - root - INFO - Database tables created successfully.
+2025-08-13 23:16:02,368 - root - INFO - --- Application startup ---
+2025-08-13 23:16:15,919 - root - INFO - --- Application shutdown ---
+2025-08-13 23:16:17,405 - root - INFO - Creating database tables...
+2025-08-13 23:16:17,408 - root - INFO - Database tables created successfully.
+2025-08-13 23:16:17,437 - root - INFO - --- Application startup ---
+2025-08-13 23:16:35,502 - root - INFO - --- Application shutdown ---
+2025-08-13 23:16:36,942 - root - INFO - Creating database tables...
+2025-08-13 23:16:36,945 - root - INFO - Database tables created successfully.
+2025-08-13 23:16:36,974 - root - INFO - --- Application startup ---
+2025-08-13 23:16:41,960 - root - INFO - Received request to complete podcast test-podcast-id
+2025-08-13 23:16:42,005 - root - WARNING - Podcast with ID test-podcast-id not found for completion.
+2025-08-13 23:16:42,005 - root - ERROR - Error completing podcast test-podcast-id: 404: Podcast not found
+Traceback (most recent call last):
+  File "/home/bard/Desktop/Code/backend/app/main.py", line 237, in complete_podcast
+    raise HTTPException(status_code=404, detail="Podcast not found")
+fastapi.exceptions.HTTPException: 404: Podcast not found
+2025-08-13 23:18:22,818 - root - INFO - --- Application shutdown ---
+2025-08-13 23:18:29,301 - root - INFO - Creating database tables...
+2025-08-13 23:18:29,304 - root - INFO - Database tables created successfully.
+2025-08-13 23:18:29,333 - root - INFO - --- Application startup ---
+2025-08-13 23:20:45,356 - root - INFO - --- Application shutdown ---

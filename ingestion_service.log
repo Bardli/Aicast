@@ -1,0 +1,60 @@
+2025-08-13 21:02:42,267 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:02:50,798 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:02:51,868 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:02:57,593 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:02:58,621 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:03:10,566 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:03:11,578 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:03:22,522 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:03:24,119 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:03:26,229 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:03:30,896 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:03:34,297 - root - INFO - Received ingestion request for podcast d38a6da7-3900-4b1b-969d-5f2e490f2d95 with block: Top tech news from various sources.
+2025-08-13 21:03:34,298 - root - INFO - Ingesting RSS from: https://techcrunch.com/feed/
+2025-08-13 21:03:34,751 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8000/articles/ "HTTP/1.1 500 Internal Server Error"
+2025-08-13 21:03:34,752 - root - ERROR - Error ingesting RSS from https://techcrunch.com/feed/: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/articles/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "/home/bard/Desktop/Code/backend/ingestion_service/main.py", line 57, in ingest_rss
+    await crud.create_article_in_main_backend(
+    ...<5 lines>...
+    )
+  File "/home/bard/Desktop/Code/backend/ingestion_service/crud.py", line 28, in create_article_in_main_backend
+    response.raise_for_status() # Raise an exception for 4xx/5xx responses
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/bard/Desktop/Code/.venv/lib/python3.13/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8000/articles/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-08-13 21:03:34,755 - root - INFO - Finished processing ingestion request for podcast d38a6da7-3900-4b1b-969d-5f2e490f2d95
+2025-08-13 21:03:53,423 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:03:54,849 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:13:49,601 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:13:51,011 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:14:02,845 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:14:04,323 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:14:10,443 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:14:11,873 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:14:17,490 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:14:18,988 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 21:14:30,521 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 21:14:32,013 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 22:57:39,637 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 22:57:41,227 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 22:57:42,649 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 22:57:59,800 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 22:58:01,525 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 22:58:34,811 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 22:58:36,522 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 23:11:51,552 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 23:11:53,126 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 23:12:05,557 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 23:12:07,090 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 23:12:07,894 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 23:12:09,471 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 23:16:00,823 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 23:16:02,409 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 23:16:15,861 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 23:16:17,447 - root - INFO - --- Content Ingestion Service startup ---
+2025-08-13 23:16:35,520 - root - INFO - --- Content Ingestion Service shutdown ---
+2025-08-13 23:16:37,029 - root - INFO - --- Content Ingestion Service startup ---
